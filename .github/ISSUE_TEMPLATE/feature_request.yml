@@ -9,6 +9,22 @@ body:
         WeaveTab is built on zero-fluff, mechanism-first engineering. When proposing features or changes, focus on concrete protocol mechanics, latency impact, token savings, and developer ergonomics.
 
   - type: dropdown
+    id: category
+    attributes:
+      label: Proposal Category
+      description: What type of enhancement is this?
+      options:
+        - "New MCP Browser Tool / CDP Domain"
+        - "SDK Plugin API / ToolBuilder Hook"
+        - "Operational Skill Workflow Pattern"
+        - "In-Browser HUD / Sidepanel Feature"
+        - "Performance / Token Pruning Optimization"
+        - "Security Policy / Blind Injection Hardening"
+        - "Other / Cross-Cutting"
+    validations:
+      required: true
+
+  - type: dropdown
     id: component
     attributes:
       label: Target Component

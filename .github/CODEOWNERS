@@ -1,0 +1,8 @@
+# Global default code owners for WeaveTab repositories
+* @fy2ne
+
+# Critical infrastructure & security
+/.github/ @fy2ne
+/docs/ @fy2ne
+SECURITY.md @fy2ne
+CONTRIBUTING.md @fy2ne

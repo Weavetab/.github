@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Architecture & General Discussions
+    url: https://github.com/orgs/Weavetab/discussions
+    about: Ask questions, share ideas, or discuss integrations with the maintainers and community.
+  - name: Security Vulnerability Disclosure
+    url: https://github.com/Weavetab/.github/security/advisories/new
+    about: Privately report security issues and vulnerabilities directly to the core maintainers.
+  - name: Official Documentation
+    url: https://weavetab.dev/docs
+    about: Read comprehensive guides, API references, and tool schemas for WeaveTab.

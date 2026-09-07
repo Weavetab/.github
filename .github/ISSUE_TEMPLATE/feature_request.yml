@@ -1,0 +1,64 @@
+name: Feature Request / Architecture Proposal
+description: Propose an enhancement, new MCP tool, SDK capability, or architectural optimization.
+title: "[Proposal]: "
+labels: ["enhancement", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        WeaveTab is built on zero-fluff, mechanism-first engineering. When proposing features or changes, focus on concrete protocol mechanics, latency impact, token savings, and developer ergonomics.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Target Component
+      description: Select which component this proposal impacts.
+      options:
+        - "@weavetab/mcp (Core MCP Server / CDP Layer)"
+        - "@weavetab/sdk (TypeScript SDK / Plugin APIs)"
+        - "@weavetab/skills (Agent Guidance & Tool Patterns)"
+        - "WeaveTab Studio (DevTools Workspace)"
+        - "WeaveTab Companion Extension"
+        - "Cross-Platform Architecture"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement / Gap
+      description: What limitation, latency bottleneck, or capability gap does this proposal address?
+      placeholder: "Current browser_map calls on deeply nested DOM trees consume..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution & Technical Mechanics
+      description: Detail how the feature should behave. Include tool signatures, CDP domains touched, or TypeScript types where applicable.
+      placeholder: |
+        Introduce `browser_filter` with signature:
+        ```typescript
+        interface FilterOptions { ... }
+        ```
+    validations:
+      required: true
+
+  - type: textarea
+    id: prior_art
+    attributes:
+      label: Prior Art & Alternatives Considered
+      description: What existing tools or patterns handle this today, and why is this approach superior?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: alignment
+    attributes:
+      label: Architecture Alignment
+      options:
+        - label: This proposal adheres to the local-first, zero-cloud telemetry architecture.
+          required: true
+        - label: This proposal maintains sub-10ms IPC dispatch and avoids unneeded dependencies.
+          required: true

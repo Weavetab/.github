@@ -7,11 +7,7 @@
 
 <br/>
 
-[![@weavetab/mcp](https://img.shields.io/npm/v/@weavetab/mcp.svg?style=flat-square&label=@weavetab/mcp&color=18181b)](https://www.npmjs.com/package/@weavetab/mcp)
-[![@weavetab/sdk](https://img.shields.io/npm/v/@weavetab/sdk.svg?style=flat-square&label=@weavetab/sdk&color=18181b)](https://www.npmjs.com/package/@weavetab/sdk)
-[![@weavetab/skills](https://img.shields.io/npm/v/@weavetab/skills.svg?style=flat-square&label=@weavetab/skills&color=18181b)](https://www.npmjs.com/package/@weavetab/skills)
-[![Docs](https://img.shields.io/badge/docs-weavetab.dev-black?style=flat-square)](https://weavetab.dev/docs)
-
+[![Architecture diagram](https://gitdiagram.com/diagram-badge.svg)](https://gitdiagram.com/weavetab/mcp?utm_source=readme&utm_medium=badge)
 </div>
 
 <br/>
